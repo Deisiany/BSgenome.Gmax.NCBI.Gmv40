@@ -1,0 +1,19 @@
+Package: BSgenome.Gmax.EnsemblPlants.Gmv2
+Title: Full genome sequences for Glycine max Williams 82
+Description: This package has the full genome sequences for Glycine max as provided by EnsemblPlants, and it intends to facilitate the data analysis for G. max by making its full genome sequences available through BSgenome.
+Version: 1.0.0
+Author: person("Deisiany", "Ferreira Neres", email = "deisianyufg@gmail.com", role = c("aut", "cre"))
+Maintainer: Clay Wright <wright.clay@gmail.com>
+Depends: BSgenome (>= 1.56.0)
+Imports: BSgenome
+Suggests: 
+License: Artistic-2.0
+organism: Glycine max
+common_name: soybean
+provider: EnsemblPlants
+provider_version: v2.1
+release_date: Jul 2020
+release_name: Glycine max v2.1
+source_url: <ftp://ftp.ensemblgenomes.org/pub/plants/release-48/fasta/glycine_max/dna/>
+biocViews: AnnotationData, Genetics, BSgenome, Glycine_max
+RoxygenNote: 7.1.1
