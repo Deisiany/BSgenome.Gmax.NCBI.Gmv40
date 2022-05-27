@@ -1,0 +1,33 @@
+---
+title: "This package has the full genome sequences for Glycine max as provided by EnsemblPlants, and it intends to facilitate the data analysis for G. max by making its full genome sequences available through BSgenome."
+author: "Deisiany"
+date: "10/31/2020"
+output: html_document
+Package: "BSgenome.Gmax.Soybase.a2"
+---
+
+```{r}
+setwd("/Users/deisianyneres/GitHub/GenomePackage/seqs_srcdir")
+library(Biostrings)
+library(BSgenome)
+library(GenomeInfoDb)
+
+```
+
+# Obtaining and preparing the sequence data
+ ***Obtain license and make sure that it is compatible with the license of the sequence data files
+
+
+#Seed file 
+ it contains all the metadata for the BSgenome package
+
+#Forge BSgenome
+```{r}
+forgeBSgenomeDataPkg("BSgenome.Gmax.NCBI.Gmv40-seed")
+```
+
+```{r}
+
+library(BSgenome.Gmax.NCBI.Gmv40)
+```
+
