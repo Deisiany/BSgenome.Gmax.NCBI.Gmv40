@@ -11,7 +11,7 @@ License: Artistic-2.0
 organism: Glycine max
 common_name: soybean
 provider: EnsemblPlants
-provider_version: v2.1
+genome: Gmv2
 release_date: Jul 2020
 release_name: Glycine max v2.1
 source_url: <ftp://ftp.ensemblgenomes.org/pub/plants/release-48/fasta/glycine_max/dna/>

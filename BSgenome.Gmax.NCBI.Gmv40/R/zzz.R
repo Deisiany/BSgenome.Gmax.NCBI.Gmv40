@@ -1,11 +1,11 @@
 ###
 ###
 
-.pkgname <- "BSgenome.Gmax.EnsemblPlants.Gmv2"
+.pkgname <- "BSgenome.Gmax.NCBI.Gmv40"
 
-.seqnames <- c("Chr.1",  "Chr.2", "Chr.3", "Chr.4", "Chr.5", "Chr.6", "Chr.7", "Chr.8", "Chr.9", "Chr.10", "Chr.11", "Chr.12", "Chr.13", "Chr.14", "Chr.15", "Chr.16", "Chr.17", "Chr.18", "Chr.19", "Chr.20")
+.seqnames <- NULL
 
-.circ_seqs <- NULL
+.circ_seqs <- c("Pltd", "MT")
 
 .mseqnames <- NULL
 
@@ -20,12 +20,11 @@
     ## Make and export BSgenome object.
     bsgenome <- BSgenome(
         organism="Glycine max",
-        common_name="soybean",
-        provider="EnsemblPlants",
-        provider_version="v2.1",
-        release_date="Jul 2020",
-        release_name="Glycine max v2.1",
-        source_url="<ftp://ftp.ensemblgenomes.org/pub/plants/release-48/fasta/glycine_max/dna/>",
+        common_name="Soybean",
+        genome="Glycine_max_v4.0",
+        provider="NCBI",
+        release_date="2021/03/10",
+        source_url="https://www.ncbi.nlm.nih.gov/assembly/GCF_000004515.6",
         seqnames=.seqnames,
         circ_seqs=.circ_seqs,
         mseqnames=.mseqnames,
