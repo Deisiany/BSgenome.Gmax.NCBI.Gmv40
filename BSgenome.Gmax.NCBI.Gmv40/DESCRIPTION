@@ -1,13 +1,13 @@
 Package: BSgenome.Gmax.NCBI.Gmv40
 Title: Full genome sequences for Glycine max (Gmv40)
-Description: Full genome sequences for Glycine max as provided by NCBI (assemblyGmv40, assembly accession GCF_000004515.5) and stored in Biostrings objects.
+Description: Full genome sequences for Glycine max as provided by NCBI (assembly Gmv40, assembly accession GCF_000004515.5) and stored in Biostrings objects.
 Version: 4.0
 Author: person("Deisiany", "Ferreira Neres", email = "deisianyufg@gmail.com", role = c("aut", "cre"))
 Maintainer: Clay Wright <wright.clay@gmail.com>
 Depends: R (>= 3.5.0), BSgenome (>= 1.63.4)
 Imports: BSgenome
 Suggests: 
-License: Artistic-2.0
+License: Creative Commons Legal Code
 organism: Glycine max
 common_name: Soybean
 genome: Glycine_max_v4.0
