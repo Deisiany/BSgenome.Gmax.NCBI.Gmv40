@@ -7,7 +7,6 @@ Maintainer: Clay Wright <wright.clay@gmail.com>
 Depends: R (>= 3.5.0), BSgenome (>= 1.63.4)
 Imports: BSgenome
 Suggests: 
-License: Creative Commons Legal Code
 organism: Glycine max
 common_name: Soybean
 genome: Glycine_max_v4.0
@@ -15,3 +14,4 @@ provider: NCBI
 release_date: 2021/03/10
 source_url: https://www.ncbi.nlm.nih.gov/assembly/GCF_000004515.6
 biocViews: AnnotationData, Genetics, BSgenome, Glycine_max
+License: Creative Commons Legal Code + file LICENSE
