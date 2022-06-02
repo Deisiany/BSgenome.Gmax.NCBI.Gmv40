@@ -15,3 +15,9 @@ release_date: 2021/03/10
 source_url: https://www.ncbi.nlm.nih.gov/assembly/GCF_000004515.6
 biocViews: AnnotationData, Genetics, BSgenome, Glycine_max
 License: Creative Commons Legal Code + file LICENSE
+
+I am committed to the long-term maintenance of my package. 
+This includes monitoring the support site for issues that users may have, 
+subscribing to the bioc-devel mailing list to stay aware of developments 
+in the Bioconductor community, responding promptly to requests for updates 
+from the Core team in response to changes in R or underlying software.
