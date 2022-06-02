@@ -8,8 +8,8 @@ genome: Glycine_max_v4.0
 provider: NCBI
 release_date: 2021/03/10 
 source_url: https://www.ncbi.nlm.nih.gov/assembly/GCF_000004515.6
-Author: person("Deisiany", "Ferreira Neres", email = "deisianyufg@gmail.com", role = c("aut", "cre"))
-Maintainer: Clay Wright <wright.clay@gmail.com>
+Author: Deisiany Ferreira Neres <deisianyufg@gmail.com>
+Maintainer: Deisiany Ferreira Neres <deisianyufg@gmail.com>, Clay Wright <wright.clay@gmail.com>
 organism_biocview: Glycine_max
 BSgenomeObjname: Gmax
 SrcDataFiles: GCF_000004515.6_Glycine_max_v4.0_genomic.fna.gz  from https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/004/515/GCF_000004515.6_Glycine_max_v4.0/
