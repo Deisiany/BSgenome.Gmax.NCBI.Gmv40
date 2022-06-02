@@ -6,5 +6,8 @@ Institute of Food and Agriculture (Hatch project 1021738) to R. Clay Wright (Vir
 
 
 # Installing package
+if (!require("BiocManager", quietly=TRUE))
 
-Clone the repository locally, including the LFS of the repository, and  then install from the git clone, e.g., via `install.packages(“/path/to/local/clone”, repos = NULL, type = “Source”)`
+    install.packages("BiocManager")
+
+BiocManager::install("BSgenome.Gmax.NCBI.Gmv40")
